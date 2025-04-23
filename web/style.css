@@ -1,0 +1,333 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter;
+    background-color: #fffffff5; 
+}
+
+nav {
+    position: fixed;        
+    top: 16px;              
+    left: 50%;              
+    transform: translateX(-50%);
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #F3F4F6;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-family: sans-serif;
+  color: #4B5563;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.container {
+    padding: 0 64px 50px 64px;
+}
+
+.beranda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 130px;
+    padding-top: 150px;
+}
+
+.name h1 {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 42px;
+    height: 23px;
+    width: 100%;
+}
+
+.name p {
+    color: #767676;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.name img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.tentang header h1 {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 32px;
+    height: 15px;
+    width: 100%;
+}
+
+.tentang header p {
+    color: #5A5A5A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.tentang main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.sekilas {
+    display: flex;
+    text-align: justify;
+    align-items: flex-start;
+    padding: 10px 32px 10px 32px;
+    border-radius: 32px;
+    border: 1px solid #F5F5F5;
+    background-color:  #E9E9E9;
+}
+
+.sekilas .card p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+    height: 10px;
+    padding-top: 5px;
+}
+
+.sekilas .card h3 {
+    font-size: 23px;
+    font-weight: 700;
+    height: max-content;
+
+}
+
+.pendidikan, .pengalaman, .prestasi {
+    display: flex;
+    text-align: justify;
+    align-items: flex-start;
+    padding: 10px 32px 10px 32px;
+    border-radius: 32px;
+    border: 1px solid #F5F5F5;
+    background-color:  #E9E9E9;
+}
+
+.pendidikan .card p ,.pengalaman .card p, .prestasi .card p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+    height: 10px;
+    padding-top: 5px;
+}
+
+.pendidikan .card li, .pengalaman .card li, .prestasi .card li {
+    color: #1E1E1E;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.project header h1 {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 32px;
+    height: 20px;
+    width: 100%;
+}
+
+.project header p {
+    color: #5A5A5A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.project main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+}
+
+.tutoria, .beli-bang, .computer-vision {
+    text-align: justify;
+    align-items: flex-start;
+    padding: 10px 32px 10px 32px;
+    border-radius: 32px;
+    border: 1px solid #F5F5F5;
+    background-color:  #E9E9E9;
+}
+
+.tutoria header, .beli-bang header, .computer-vision header {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.tutoria header h3, .beli-bang header h3, .computer-vision header h3 {
+    font-size: 23px;
+    font-weight: 700;
+    height: max-content;
+}
+
+.tutoria header p, .beli-bang header p, .computer-vision header p {
+    text-align: justify;
+}
+
+.tutoria figure, .beli-bang figure, .computer-vision figure {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tutoria figure img, .beli-bang figure img, .computer-vision figure img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 32px;
+}
+
+.kontak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.kontak header h1 {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 32px;
+    height: 20px;
+    width: 100%;
+}
+
+.kontak header p {
+    color: #5A5A5A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.kontak main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2rem;
+  
+}
+
+.row-1, .row-2 {
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.email, .whatsApp{
+    text-align: justify;
+    align-items: center;
+    padding: 10px 32px 10px 32px;
+    border-radius: 32px;
+    border: 1px solid #F5F5F5;
+    background-color:  #E9E9E9;
+}
+
+.email header, .whatsApp header  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 0 0 15px;
+}
+
+.email .icon{
+    display: flex;
+    padding: 15px 0 20px 0;
+    width: 150px;
+}
+
+.whatsApp .icon {
+    width: 150px;
+}
+
+.email h1, .whatsApp h1{
+    text-align: left;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.linkedIn, .github {
+    text-align: justify;
+    align-items: center;
+    padding: 10px 33px 10px 33px;
+    border-radius: 32px;
+    border: 1px solid #F5F5F5;
+    background-color:  #E9E9E9;
+}
+
+.linkedIn header, .github header  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 0 0 15px;
+}
+
+.linkedIn .icon, .github .icon {
+    display: flex;
+    width: 150px;
+}
+
+.linkedIn h1, .github h1{
+    text-align: left;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 700;
+}
